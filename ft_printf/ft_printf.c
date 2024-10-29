@@ -34,7 +34,7 @@ int ft_printf(const char *str, ...)
         }
         else
         {
-            if (ft_putchar(str[count]) == -1) // ft_putchar kullanıldı
+            if (ft_putchar(str[count]) == -1)
             {
                 va_end(ags);
                 return -1;
